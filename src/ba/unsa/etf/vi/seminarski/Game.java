@@ -27,7 +27,6 @@ public class Game extends JFrame {
                             buttons[best].setText(Character.toString(position.turn));
                             position.move(best);
                         }
-                        //ending the game
                         if (position.isGameEnd()) {
                             String message = position.isWinFor('x') ? "You won!" :
                                     position.isWinFor('o') ? "Computer won!" : "Draw";
