@@ -8,6 +8,7 @@ public class Position {
     public static final int SIZE = DIM*DIM;
     public char turn;
     public char[] board;
+    private Map<Integer, Integer> cache = new HashMap<Integer, Integer>();
 
     public Position(char turn) {
         this.turn = 'x';
@@ -80,6 +81,9 @@ public class Position {
     }
 
     public int minimax() {
+        Integer key = code();
+        Integer value = cache.get(key);
+        if(value != null) return value;
         if(isWinFor('x')) return blanks();
         if(isWinFor('o')) return -blanks();
         if(blanks() == 0) return 0;
@@ -88,7 +92,21 @@ public class Position {
             list.add(move(idx).minimax());
             unmove(idx);
         }
-        return turn == 'x' ? Collections.max(list) : Collections.min(list);
+        value = turn == 'x' ? Collections.max(list) : Collections.min(list);
+        cache.put(key, value);
+        return value;
+    }
+
+    private int code() {
+        int value = 0;
+        for(int i = 0; i < SIZE; i++) {
+            value = value * 3;
+            if(board[i] == 'x')
+                value += 1;
+            else if (board[i] == 'o')
+                value += 2;
+        }
+        return value;
     }
 
 
