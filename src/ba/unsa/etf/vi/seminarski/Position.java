@@ -109,5 +109,24 @@ public class Position {
         return value;
     }
 
+    public int bestMove() {
+        Comparator<Integer> cmp = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer first, Integer second) {
+                int a = move(first).minimax();
+                unmove(first);
+                int b = move(second).minimax();
+                unmove(second);
+                return a - b;
+            }
+        };
+        List<Integer> list = possibleMoves();
+        return turn == 'x' ? Collections.max(list, cmp) : Collections.min(list, cmp);
+    }
+
+    public boolean isGameEnd() {
+        return isWinFor('x') || isWinFor('y') || blanks() == 0;
+    }
+
 
 }
