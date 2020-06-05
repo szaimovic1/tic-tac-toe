@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tic-tac-toe:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8136bb86-6b78-4917-a452-193b106c6854" name="Default Changelist" comment="" />
+    <list default="true" id="8136bb86-6b78-4917-a452-193b106c6854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tic_tac_toe_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/vi/seminarski/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/vi/seminarski/Game.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +34,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -89,6 +100,10 @@
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="765" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1280.688@0.0.1280.688" timestamp="1591356628177" />
+    <state x="490" y="135" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591367047375">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="490" y="135" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.688@0.0.1280.688" timestamp="1591367047375" />
     <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1591365955951">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
@@ -101,26 +116,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="670" y="323" width="435" height="214" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1591348833617" />
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1591365750061">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1591368683170">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
-    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1591365750061">
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1591368683170" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1591368683170">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
-    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1591365750061">
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1591368683170" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1591368683170">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
-    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1591365750061">
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1591368683170" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1591368683170">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
-    <state x="241" y="0" key="SettingsEditor" timestamp="1591354821877">
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1591368683170" />
+    <state x="241" y="0" key="SettingsEditor" timestamp="1591367073839">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="241" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1591354821877" />
+    <state x="241" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1591367073839" />
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591348615679" />
     <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1591348584908">
       <screen x="0" y="0" width="1600" height="860" />

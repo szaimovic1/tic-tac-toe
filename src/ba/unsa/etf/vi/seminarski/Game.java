@@ -1,6 +1,8 @@
 package ba.unsa.etf.vi.seminarski;
 
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -12,6 +14,7 @@ public class Game extends JFrame {
 
     public Game() {
         setLayout(new GridLayout(Position.DIM, Position.DIM));
+        setTitle("Tic Tac Toe");
         for(int i = 0; i < Position.SIZE; i++) {
             JButton button = createButton();
             buttons[i] = button;
@@ -51,7 +54,7 @@ public class Game extends JFrame {
         //ovo je ako hocemo malo manje, centrirano da bude
         setSize(600,600);
         setLocationRelativeTo(null);
-
+        setBackground(Color.WHITE);
         setVisible(true);
     }
 
@@ -61,6 +64,9 @@ public class Game extends JFrame {
         button.setBackground(Color.WHITE);
         button.setOpaque(true);
         button.setFont(new Font(null, Font.PLAIN, 100));
+        button.setBorder(new LineBorder(new Color(220, 217, 255)));
+        button.setForeground(new Color(144, 135, 232));
+        button.setFocusPainted(false);
         add(button);
         return button;
     }
