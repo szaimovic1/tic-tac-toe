@@ -28,9 +28,17 @@ public class Game extends JFrame {
                             position.move(best);
                         }
                         if (position.isGameEnd()) {
-                            String message = position.isWinFor('x') ? "You won!" :
-                                    position.isWinFor('o') ? "Computer won!" : "Draw";
-                            JOptionPane.showMessageDialog(null, message);
+                            String message = position.isWinFor('x') ? "RESULT: You won!\n" :
+                                    position.isWinFor('o') ? "RESULT: Computer won!\n" : "RESULT: Draw\n";
+                            int option = JOptionPane.showConfirmDialog(null, message + "\nDo you want to play again?", "Game Result", JOptionPane.YES_NO_OPTION);
+                            //0 for 'yes'
+                            //1 for 'no'
+                            if (option == 0) {
+                                setVisible(false);
+                                new Game();
+                            } else if (option == 1) {
+                                setVisible(false);
+                            }
                         }
                     }
                 }
