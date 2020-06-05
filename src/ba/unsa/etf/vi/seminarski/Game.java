@@ -45,6 +45,13 @@ public class Game extends JFrame {
             });
         }
         pack();
+        //ovo je ako hocemo full screen
+        //setExtendedState(getExtendedState() | JFrame.MAXIMIZED_BOTH);
+
+        //ovo je ako hocemo malo manje, centrirano da bude
+        setSize(600,600);
+        setLocationRelativeTo(null);
+
         setVisible(true);
     }
 
@@ -53,7 +60,7 @@ public class Game extends JFrame {
         button.setPreferredSize(new Dimension(100, 100));
         button.setBackground(Color.WHITE);
         button.setOpaque(true);
-        button.setFont(new Font(null, Font.PLAIN, 50));
+        button.setFont(new Font(null, Font.PLAIN, 100));
         add(button);
         return button;
     }
