@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ctWqdPuUyNOXJAtVtP4PBXijgD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591348564641</updated>
-      <workItem from="1591348583640" duration="243000" />
+      <workItem from="1591348583640" duration="1048000" />
     </task>
     <servers />
   </component>
@@ -50,6 +57,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="205" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1591349487484">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="205" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1591349487484" />
     <state x="580" y="171" key="FileChooserDialogImpl" timestamp="1591348812509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
