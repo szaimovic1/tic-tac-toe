@@ -7,20 +7,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ctWqdPuUyNOXJAtVtP4PBXijgD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.vi.seminarski.Game" />
+      <module name="tic-tac-toe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.vi.seminarski.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.vi.seminarski.Main" />
       <module name="tic-tac-toe" />
@@ -31,6 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,6 +85,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="54" key="#com.intellij.ide.util.MemberChooser" timestamp="1591356628177">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="765" y="54" key="#com.intellij.ide.util.MemberChooser/0.0.1280.688@0.0.1280.688" timestamp="1591356628177" />
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1591365955951">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.688@0.0.1280.688" timestamp="1591365955951" />
     <state x="580" y="171" key="FileChooserDialogImpl" timestamp="1591348812509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -58,9 +101,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="670" y="323" width="435" height="214" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1591348833617" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1591348615679">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom" timestamp="1591365750061">
+      <screen x="0" y="0" width="1280" height="688" />
     </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
+    <state width="1237" height="155" key="GridCell.Tab.0.center" timestamp="1591365750061">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
+    <state width="1237" height="155" key="GridCell.Tab.0.left" timestamp="1591365750061">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
+    <state width="1237" height="155" key="GridCell.Tab.0.right" timestamp="1591365750061">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="155" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1591365750061" />
+    <state x="241" y="0" key="SettingsEditor" timestamp="1591354821877">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="241" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1591354821877" />
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591348615679" />
     <state x="495" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1591348584908">
       <screen x="0" y="0" width="1600" height="860" />
