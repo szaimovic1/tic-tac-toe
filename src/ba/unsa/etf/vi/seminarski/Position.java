@@ -1,6 +1,5 @@
 package ba.unsa.etf.vi.seminarski;
 
-import java.security.PublicKey;
 import java.util.*;
 
 public class Position {
@@ -10,7 +9,7 @@ public class Position {
     public char[] board;
     private Map<Integer, Integer> cache = new HashMap<Integer, Integer>();
 
-    public Position(char turn) {
+    public Position() {
         this.turn = 'x';
         board = new char[SIZE];
         for(int i = 0; i < SIZE; i++)
@@ -125,7 +124,7 @@ public class Position {
     }
 
     public boolean isGameEnd() {
-        return isWinFor('x') || isWinFor('y') || blanks() == 0;
+        return isWinFor('x') || isWinFor('o') || blanks() == 0;
     }
 
 
